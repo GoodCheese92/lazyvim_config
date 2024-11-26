@@ -8,7 +8,9 @@ return {
       transparent_background = true,
       color_overrides = {
         mocha = {
-          --        base = "#111622",
+          lineNr = { fg = "#A6A6A6" },
+          cursorLineNr = { fg = "#FFFFFF" },
+          visual = { bg = "#FFFFD2", fg = "#008000" },
         },
       },
     },
